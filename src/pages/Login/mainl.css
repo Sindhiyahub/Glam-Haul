@@ -1,0 +1,68 @@
+.main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    line-height: 50px;
+  
+  }
+  .line {
+    border-left: 3px solid #2a2079;
+    height: 60%;
+    margin: 0 10px; 
+    margin-left: 200px;
+  }
+ 
+  
+  .log{
+    padding: 25px;
+    padding-bottom: 90px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    background-color: #fff;
+    align-items: center;
+    margin-left: 220px;
+
+  }
+  .log {
+    margin-right: 20px; /* Add spacing between login and sign-up forms */
+  }
+  
+  .log h2 {
+    margin-bottom: 20px;
+  }
+  
+  .log input
+   {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  
+ 
+
+  .log button{
+    width: 100%;
+    padding: 10px;
+    background-color:transparent;
+    color: #130d0d;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+
+  }
+  
+  .log button:hover
+   {
+    background-color: #0056b3;
+  }
+  
+  .error-message {
+    color: red;
+    margin-bottom: 10px;
+  }
+  

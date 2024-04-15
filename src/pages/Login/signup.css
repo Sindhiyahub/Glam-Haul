@@ -1,0 +1,64 @@
+.sign {
+  max-width: 400px; /* Limit the width of the form */
+  margin: 0 auto; /* Center the form horizontally */
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  background-color: #fff;
+}
+
+.sign h2 {
+  margin-bottom: 20px;
+  text-align: center; /* Center the heading */
+}
+
+.sign input {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-sizing: border-box; /* Include padding and border in the element's total width and height */
+}
+
+.sign input[type="password"] {
+  position: relative; /* Make the password input relative for the eye icon */
+}
+
+.sign input[type="password"] + span {
+  position: absolute;
+  top: 335px;
+  right:600px;
+  transform: translateY(-50%);
+  cursor: pointer;
+}
+
+.sign button {
+  width: 100%;
+  padding: 10px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.sign button:hover {
+  background-color: #0056b3;
+}
+
+.sign p {
+  margin-top: 15px;
+  text-align: center; /* Center the paragraph */
+}
+
+.sign p a {
+  color: #007bff;
+  text-decoration: none;
+}
+
+.sign p a:hover {
+  text-decoration: underline;
+  color: rgb(179, 72, 120);
+}

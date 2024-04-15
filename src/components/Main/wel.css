@@ -1,0 +1,81 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Protest+Revolution&family=Sedan:ital@0;1&display=swap');
+
+
+.welc{
+    margin-left: 100px;
+    padding: 0;
+    background-color:transparent;
+    color: #884096;
+    height: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: "Sedan", serif;
+    font-weight: 400;
+    font-style: normal;
+    
+    margin-top: 50px;
+    
+    margin-bottom: 10px;
+}
+
+.animated-text{
+    font-size: 36px;
+    font-weight: 600;
+    min-width: 280px;
+}
+
+.animated-text span{
+    position: relative;
+}
+
+.animated-text span::before{
+    content: "Shopaholic";
+    color: #0c0008;
+    animation: words 20s infinite;
+}
+
+.animated-text span::after{
+    content: "";
+    position: absolute;
+    width: calc(100% + 8px);
+    height: 100%;
+    background-color:white;
+    border-left: 2px solid #ff7f50;
+    right: -8px;
+    animation: cursor .8s infinite, typing 20s steps(14) infinite;
+}
+
+@keyframes cursor {
+    to{
+        border-left: 2px solid #ff7f5000;
+    }
+}
+
+@keyframes words {
+    0%,20%{
+        content: "Welcome To Glam Haul ..!";
+    }
+    21%,40%{
+        content: "Step into style Heaven";
+    }
+    41%,60%{
+        content: " At Pondicherry's Premier";
+    }
+    61%,80%{
+        content: "  Clothing Destination";
+    }
+    81%,100%{ 
+        content: " Where Fashion meets Elegance!";
+    }
+}
+
+@keyframes typing {
+    10%,15%,30%,35%,50%,55%,70%,75%,90%,95%{
+        width: 0;
+    }
+    5%,20%,25%,40%,45%,60%,65%,80%,85%{
+        width: calc(100% + 8px);
+    }
+}
