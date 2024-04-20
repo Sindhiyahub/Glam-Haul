@@ -5,7 +5,7 @@ import "react-slideshow-image/dist/styles.css";
 
 import img1 from "../../assets/d.gif";
 import img2 from "../../assets/d2.gif";
-import img3 from "../../assets/d4.gif";
+import img3 from "../../assets/b.webp";
 import img4 from "../../assets/comfy casuals.gif";
 
 
