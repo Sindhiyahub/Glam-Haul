@@ -74,14 +74,18 @@ const Product = ({ user }) => {
     console.log("Added to wishlist");
   };
 
-  // Get unique shop names from products
-  const shops = Array.from(new Set(category.map((item) => item.shop)));
+ 
+// Filter the items where category is "Women"
+const filteredItems = category.filter(item => item.category === categoryName);
+
+// Get unique shop names from filtered items
+const shops = Array.from(new Set(filteredItems.map(item => item.shop)));
 
   const filterByShop = (shop) => {
     setSelectedShop(shop);
   };
 
-  const colours = Array.from(new Set(category.map((item) => item.colour)));
+  const colours = Array.from(new Set(filteredItems.map((item) => item.colour)));
 
   const filterByColour = (colour) => {
     setSelectedColour(colour);
@@ -156,7 +160,7 @@ const Product = ({ user }) => {
                 </h3>
                 <h3 className="colour">Colour: {item.colour}</h3>
                 <h3 className="fabric">Fabric: {item.fabric}</h3>
-                <h3 className="product__price">Price: ${item.price}</h3>
+                <h3 className="product__price">Price: {item.price}</h3>
                 <h3 className="shop">Shop: {item.shop}</h3>
                 <button
                   onClick={() =>

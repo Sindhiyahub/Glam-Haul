@@ -1,5 +1,4 @@
 import React from "react";
-import Card from "../UI/Card";
 
 const MainShop = ({ mainTitle, title, image, onListHandler }) => {
   return (

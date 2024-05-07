@@ -76,7 +76,7 @@ text-decoration: none;
 }
 
 .sortlh{
-  background-color: #4CAF50; /* Green */
+  background-color: #060006; /* Green */
   border: none;
   color: white;
   padding: 15px 32px;
@@ -101,6 +101,11 @@ text-decoration: none;
   margin-top: 14px;
   /* margin-left: 10px; */
   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.sortlh:hover{
+background-color: blueviolet;
+
 }
 @media only screen and (max-width: 48rem) {
   .product {

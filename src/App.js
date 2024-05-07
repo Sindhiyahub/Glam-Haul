@@ -6,7 +6,7 @@ import Main from "./components/Main/Main";
 import Mainl from "./pages/Login/mainl";
 import Products from "./pages/Product/Products";
 import AddProducts from "./pages/Product/AddProducts";
-import Contact from "./components/Footer/contact";
+
 import "./App.css";
 import { useStateValue } from "./store/AuthContext/authContext";
 import WishList from "./components/Header/Wishlist/WishList";
@@ -46,7 +46,6 @@ const App = () => {
        
        <Route path="/mainshops" element={<MainShops />} />
 
-        <Route path="/contact" element={<Contact />} />
        <Route path="/signup" element={<Signup />} />
         <Route path="/login" element={<Mainl />} />
 

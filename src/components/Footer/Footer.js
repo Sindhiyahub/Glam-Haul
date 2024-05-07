@@ -19,6 +19,7 @@ const Footer = () => {
             <div className="footer__container">
                 <div className="footer__stuff">
                     <div className="footer__one">
+                        <h3><center>FOLLOW US ON</center></h3>
                         <img
                             className="pic"
                             src={img}
@@ -26,39 +27,8 @@ const Footer = () => {
                         />
                     </div>
 
-                    <div className="footer__two">
-                        {/* <iframe
-                            title="Instagram Embed"
-                            src="https://www.instagram.com/p/C5u3u59P16M/embed"
-                            frameBorder="0"
-                            scrolling="no"
-                            allowtransparency="true"
-                            allowFullScreen={true}
-                            style={{
-                                background: '#FFF',
-                                border: '0',
-                                borderRadius: '3px',
-                                boxShadow: '0 0 1px 0 rgba(0,0,0,0.5),0 1px 10px 0 rgba(0,0,0,0.15)',
-                                margin: '1px',
-                                maxWidth: '540px',
-                                minWidth: '326px',
-                                padding: '0',
-                                width: '99.375%',
-                                width: '-webkit-calc(100% - 2px)',
-                                width: 'calc(100% - 2px)',
-                            }}
-                        ></iframe> */}
-                        <a href="https://www.instagram.com/_glam_haul_/" target="_blank" rel="noopener noreferrer">
-                            <BsInstagram className='insta' />
-                        </a>
-                    </div>
-
-                    <div className="footer__three">
-                        <a href="/contact"> <ImWhatsapp className='cont'/></a>
-                        <a href="/contact"><MdOutlineMailOutline className='con'/></a>
 
 
-                    </div>
 
                     <div className='map'>
                         <iframe
@@ -71,9 +41,18 @@ const Footer = () => {
                             allowFullScreen
                         ></iframe>
                     </div>
+                    <div className='contact'>
+                        <u><h2>Contact us</h2></u>
+                        <a href="https://www.instagram.com/_glam_haul_/" target="_blank" rel="noopener noreferrer">
+                            <BsInstagram className='insta' /> <h2><p>_glam_haul_</p></h2>
+                        </a>
+                        <h2 className='mail'><MdOutlineMailOutline className='con' /><p>customer@gmail.com</p></h2>
+                        <h2 className='what'><ImWhatsapp className='cont' /><p>8879654123 (from 10 AM to 6 PM, Mon to Sun)</p></h2>
+                        <h4> We are closed on bank holidays.</h4>
+                    </div>
                 </div>
             </div>
-            <div className='copy'><FaRegCopyright className='co'/>   Glam Haul!   All Rights Reserved</div>
+            <div className='copy'><FaRegCopyright className='co' />   Glam Haul!   All Rights Reserved</div>
         </div>)
 }
 
