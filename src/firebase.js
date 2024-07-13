@@ -7,7 +7,7 @@ import "firebase/compat/storage";
 import {getStorage} from "firebase/storage"
 
 const firebaseConfig = {
-  apiKey: "AIzaSyD9_7-TcSFrQHm_f6zSen4wBQC_QCsIqvE",
+  apiKey: "your API_KEY",
   authDomain: "shop-app-v2-8f1ee.firebaseapp.com",
   projectId: "shop-app-v2-8f1ee",
   storageBucket: "shop-app-v2-8f1ee.appspot.com",
